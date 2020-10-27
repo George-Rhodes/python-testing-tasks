@@ -5,3 +5,19 @@ def vowels(word):
         if letter in the_vowels:
             number_of_vowels += 1
     return number_of_vowels
+
+
+
+
+
+
+
+if __name__ == '__main__':
+
+    word1 = 'saucybegger'
+
+    count = vowels(word1)
+    print(count) 
+
+
+
